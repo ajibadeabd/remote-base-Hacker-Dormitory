@@ -5,7 +5,8 @@ import Search from './Components/Search';
 import Error from './Components/Error';
 import 'h8k-components';
 
-const title = "Tizeti";
+const title = "Hacker Dormitory";
+
 function App() {
   const [resident, setResident] = useState([])
   const [error, setError] = useState("")
